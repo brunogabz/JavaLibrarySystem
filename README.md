@@ -1,4 +1,4 @@
-# 📚 Library Management System
+# Library Management System
 
 This is a personal project developed for training purposes, focusing on software architecture, database persistence, and access control. The system manages a library's collection and handles user authentication with different privilege levels.
 
@@ -14,7 +14,7 @@ This is a personal project developed for training purposes, focusing on software
 - **Maven** (Dependency Management)
 - **JDBC** (Java Database Connectivity)
 
-## 🗄️ Database Setup
+## Database Setup
 To run this project on a different machine, you need to set up the following tables in your PostgreSQL environment:
 
 ```sql
