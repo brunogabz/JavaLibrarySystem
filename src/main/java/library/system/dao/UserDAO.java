@@ -1,6 +1,6 @@
-package my.library.dao;
-import my.library.connection.MakeConection;
-import my.library.model.User;
+package library.system.dao;
+import library.system.connection.MakeConection;
+import library.system.model.User;
 import java.sql.*;
 
 public class UserDAO extends BaseDAO {

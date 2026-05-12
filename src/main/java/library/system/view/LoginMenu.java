@@ -1,7 +1,8 @@
-package my.library.view;
+package library.system.view;
 import java.util.Scanner;
-import my.library.dao.*;
-import my.library.model.User;
+import library.system.dao.UserDAO;
+import library.system.dao.*;
+import library.system.model.User;
 
 
 public class LoginMenu {

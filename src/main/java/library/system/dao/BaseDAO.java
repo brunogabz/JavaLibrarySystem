@@ -1,6 +1,8 @@
-package my.library.dao;
+package library.system.dao;
 import java.sql.*;
-import my.library.connection.*;
+
+import library.system.connection.MakeConection;
+import library.system.connection.*;
 
 public abstract class BaseDAO {
     protected boolean exists(String table, String column, String value) {

@@ -1,7 +1,7 @@
-package my.library.view;
-import my.library.dao.BookDAO;
-import my.library.model.Book;
-import my.library.model.User;
+package library.system.view;
+import library.system.dao.BookDAO;
+import library.system.model.Book;
+import library.system.model.User;
 
 import java.util.Scanner;
 

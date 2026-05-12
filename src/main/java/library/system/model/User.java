@@ -1,4 +1,4 @@
-package my.library.model;
+package library.system.model;
 
 public class User {
     private int id;

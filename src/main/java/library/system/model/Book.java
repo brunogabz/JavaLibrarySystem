@@ -1,4 +1,4 @@
-package my.library.model;
+package library.system.model;
 
 public class Book {
     private int id;
