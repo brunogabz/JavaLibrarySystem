@@ -1,0 +1,19 @@
+package my.library.connection;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+
+public class MakeConection {
+    private static final String URL = "jdbc:postgresql://localhost:5432/library";
+    private static final String USER = "postgres";
+    private static final String PASSWORD = "1006";
+
+    public static Connection getConnection() {
+        try {
+            return DriverManager.getConnection(URL, USER, PASSWORD);
+        } catch (SQLException e) {
+            throw new RuntimeException("Error to connect with database: " + e.getMessage());
+        }
+    }
+}
