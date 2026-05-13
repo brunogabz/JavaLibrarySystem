@@ -22,7 +22,7 @@ To run this project on a different machine, you need to set up the following tab
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     name VARCHAR(150) NOT NULL,
-    email VARCHAR(150) NOT NULL UNIQUE,(url)(url)
+    email VARCHAR(150) NOT NULL UNIQUE,
     password VARCHAR(150) NOT NULL,
     role VARCHAR(20) DEFAULT 'USER'
 );
