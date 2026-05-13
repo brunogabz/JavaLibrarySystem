@@ -17,7 +17,7 @@ public class Main {
             System.err.println("Error: " + e.getMessage());
         }
         LoginMenu loginMenu = new LoginMenu();
-        loginMenu.startLogin();
+        loginMenu.startLoginMenu();
         //MainMenu mainMenu = new MainMenu();
        // mainMenu.startMainMenu();
    }

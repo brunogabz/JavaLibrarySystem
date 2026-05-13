@@ -28,9 +28,10 @@ public class MainMenu {
                     System.out.print("ISBN: ");
                     String isbn = scanner.nextLine();
                     BookDAO dao = new BookDAO();
-                    if (dao.existentISBN(isbn)){
+                    while (dao.existentISBN(isbn)) {
                         System.err.println("Error: A book with this ISBN already exists!");
-                        break;
+                        System.out.println("Please enter another isbn: ");
+                        isbn = scanner.nextLine();
                     }
                     System.out.print("Title: ");
                     String title = scanner.nextLine();
@@ -41,6 +42,14 @@ public class MainMenu {
                     Book newBook = new Book(title, author, isbn, publicationYear);
                     dao.registerBook(newBook);
                     break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    return;
             }
         }
     }
