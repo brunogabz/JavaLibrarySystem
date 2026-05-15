@@ -17,7 +17,8 @@ public class MainMenu {
             System.out.println("2- List All Books");
             System.out.println("3- Check Out Book");
             System.out.println("4- Return Book");
-            System.out.println("5- Exit");
+            System.out.println("5- Logout");
+            System.out.println("6- Exit");
             System.out.print("Choose an option: ");
 
             option = scanner.nextInt();
@@ -50,6 +51,8 @@ public class MainMenu {
                     break;
                 case 5:
                     return;
+                case 6:
+                    System.exit(0);
             }
         }
     }
