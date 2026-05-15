@@ -11,7 +11,7 @@ public class MainMenu {
     private int option = 0;
 
     public void startMainMenu(User user) {
-        while (option != 5) {
+        while (option != 5 || option != 6) {
             System.out.println("-----Library System-----");
             System.out.println("1- Register Book");
             System.out.println("2- List All Books");
